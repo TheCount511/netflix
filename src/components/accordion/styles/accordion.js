@@ -11,7 +11,7 @@ color:white;
 margin-bottom:10px;
 margin:auto;
 width:100%;
-max-width:676px;
+max-width:700px;
 
 &:first-of-type {
     margin-top:3em;
