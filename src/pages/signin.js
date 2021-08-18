@@ -1,6 +1,11 @@
+import {HeaderContainer} from'../containers/header'
+import {FooterContainer} from'../containers/footer'
+
 const Signin =()=>{
     return(
-        <p>Hello from the Sign In Page</p>
+       <HeaderContainer>
+<p>Hello from the Sign In Page</p>
+       </HeaderContainer>  
     )
 }
 
