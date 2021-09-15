@@ -20,7 +20,7 @@ import {FirebaseContext} from '../context/firebase'
         .catch((error)=>{
             console.log(error.message)
         });
-    },[]);
+    },[firebase, target]);
     return {[target]: content}
 }
 

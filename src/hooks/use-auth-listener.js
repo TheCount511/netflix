@@ -15,7 +15,7 @@ useEffect(()=>{
     })
 
     return()=>listener();   
-},[]);
+},[firebase]);
 return (user)
 }
 
