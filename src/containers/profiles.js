@@ -11,12 +11,12 @@ export const SelectProfileContainer = ({ user, setProfile }) => {
             </Header.Frame>
         </Header>
         <Profiles>
-            <Profiles.Title>Who' watching?</Profiles.Title>
+            <Profiles.Title>Who's watching?</Profiles.Title>
             <Profiles.List>
                 <Profiles.User>
                     <Profiles.Picture src={user.photoURL} />
                     <Profiles.Name>{user.displayName}</Profiles.Name>
-                </Profiles.User>
+                </Profiles.User> 
             </Profiles.List>
         </Profiles>
     </>)

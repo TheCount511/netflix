@@ -10,7 +10,7 @@ export const List = styled.ul``;
 
 export const Name = styled.p``;
 
-export const Item = styled.p``;
+export const Item = styled.li``;
 
 
 export const Picture = styled.img``;

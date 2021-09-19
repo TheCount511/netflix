@@ -37,12 +37,12 @@ text-decoration:none;
 `
 export const Title = styled.p`
 font-size:16px;
-color:#757575
+color:#757575;
 margin-bottom:40px;
 `
 export const Text = styled.p`
 font-size:16px;
-color:#757575
+color:#757575;
 margin-bottom:40px;
 `
 export const Break = styled.p`

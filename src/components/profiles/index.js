@@ -12,15 +12,15 @@ Profiles.List=({children, ...restProps})=>{
     return <List {...restProps}>{children}</List>
 }
 
-Profiles.Item=({children, ...restProps})=>{
+Profiles.User=({children, ...restProps})=>{
     return <Item {...restProps}>{children}</Item>
 }
 
 Profiles.Picture=({src, ...restProps})=>{
-    return <Picture 
+    return (<Picture 
     {...restProps} 
-    src = {src ? `/images/user/${src}.png` : `/images/misc/loading`}/>
-}
+    src={src ? `/images/user/${src}.png` : `/images/misc/loading.gif`}/>);
+};
 
 Profiles.Name=({children, ...restProps})=>{
     return <Name {...restProps}>{children}</Name>

@@ -1,5 +1,7 @@
 import styled from 'styled-components/macro'
 import {Link as ReactRouterLink} from 'react-router-dom';
+
+
 export const Header = styled.div``;
 
 export const Background = styled.div`
@@ -15,7 +17,18 @@ margin:0 56px;
 height:64px;
 padding:18px 0;
 justify-content:space-between;
-align-items:center;`;
+align-items:center;
+
+a {
+    display:flex;
+}
+
+@media (max-width: 1000px){
+    margin: 0 30px
+}
+
+`;
+
 
 export const Logo = styled.img`
 height:32px;
@@ -36,9 +49,9 @@ height:fit-content;
 color:white;
 border:0;
 font-size:15px;
-border-radiusL3px;
+border-radius:3px;
 padding:8px 17px;
-cursor:pointer:
+cursor:pointer;
 text-decoration:none;
 box-sizing:border-box;
 
