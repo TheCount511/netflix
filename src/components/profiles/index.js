@@ -17,9 +17,10 @@ Profiles.User=({children, ...restProps})=>{
 }
 
 Profiles.Picture=({src, ...restProps})=>{
-    return (<Picture 
+    return (
+    <Picture 
     {...restProps} 
-    src={src ? `/images/user/${src}.png` : `/images/misc/loading.gif`}/>);
+    src={src ? `/images/users/${src}.png` : `/images/misc/loading.gif`}/>);
 };
 
 Profiles.Name=({children, ...restProps})=>{
