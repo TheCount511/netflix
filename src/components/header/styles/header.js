@@ -171,6 +171,7 @@ button {
 &:hover > ${Dropdown} {
 display:flex;
 flex-direction:column;
+z-index: 100;
 }
 `;
 
