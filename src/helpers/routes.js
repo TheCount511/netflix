@@ -5,7 +5,6 @@ export const IsUserRedirect = ({ user, loggedInPath, children, ...rest }) => {
         <Route
             {...rest}
             render={() => {
-                console.log(`user is: ${user}`, user);
                 return (user) ? <Redirect to={{ pathname: loggedInPath }} /> : (!user) ? children : null;
             }
             }

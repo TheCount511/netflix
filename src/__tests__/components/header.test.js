@@ -9,7 +9,7 @@ describe('<Header />', () => {
     const { container, getByText, getByTestId } = render(
       <Header>
         <Header.Frame>
-          <Header.Logo src="/logo.svg" alt="Netflix" />
+          <Header.Logo src={process.env.PUBLIC_URL + "/logo.svg"} alt="Netflix" />
           <Header.TextLink active="true">Hello I am a link!</Header.TextLink>
         </Header.Frame>
       </Header>
@@ -24,7 +24,7 @@ describe('<Header />', () => {
     const { container, getByText, queryByTestId } = render(
       <Header bg={false}>
         <Header.Frame>
-          <Header.Logo src="/logo.svg" alt="Netflix" />
+          <Header.Logo src={process.env.PUBLIC_URL + "/logo.svg"} alt="Netflix" />
           <Header.ButtonLink>Sign In</Header.ButtonLink>
           <Header.TextLink active={false}>Hello I am a link!</Header.TextLink>
         </Header.Frame>
@@ -41,7 +41,7 @@ describe('<Header />', () => {
       <Header src="joker1" dontShowOnSmallViewPort>
         <Header.Frame>
           <Header.Group>
-            <Header.Logo src="/images/logo.svg" alt="Netflix" />
+            <Header.Logo src={process.env.PUBLIC_URL + "/images/logo.svg"} alt="Netflix" />
             <Header.TextLink active={false} onClick={() => {}}>
               Series
             </Header.TextLink>
@@ -52,10 +52,10 @@ describe('<Header />', () => {
           <Header.Group>
             <Header.Search searchTerm="Joker" setSearchTerm={() => {}} />
             <Header.Profile>
-              <Header.Picture src="/images/karl.png" />
+              <Header.Picture src={process.env.PUBLIC_URL + "/images/karl.png"} />
               <Header.Dropdown>
                 <Header.Group>
-                  <Header.Picture src="/images/karl.png" />
+                  <Header.Picture src={process.env.PUBLIC_URL + "/images/karl.png"} />
                   <Header.TextLink>Karl Hadwen</Header.TextLink>
                 </Header.Group>
                 <Header.Group>

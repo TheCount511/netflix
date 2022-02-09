@@ -7,7 +7,7 @@ describe('<Player />', () => {
     const { container, getByText, queryByTestId } = render(
       <Player>
         <Player.Button />
-        <Player.Video src="/videos/bunny.mp4" />
+        <Player.Video src={process.env.PUBLIC_URL + "/videos/bunny.mp4" />
       </Player>
     );
 

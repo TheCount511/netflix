@@ -24,7 +24,7 @@ exports[`<Accordion /> opens and closes the <Accordion /> component 1`] = `
           What is Netflix?
           <img
             alt="Open"
-            src="/images/icons/add.png"
+            src={process.env.PUBLIC_URL + "/images/icons/add.png"}
           />
         </div>
       </div>
@@ -37,7 +37,7 @@ exports[`<Accordion /> opens and closes the <Accordion /> component 1`] = `
           How much does Netflix cost?
           <img
             alt="Open"
-            src="/images/icons/add.png"
+            src={process.env.PUBLIC_URL + "/images/icons/add.png"}
           />
         </div>
       </div>
@@ -50,7 +50,7 @@ exports[`<Accordion /> opens and closes the <Accordion /> component 1`] = `
           Where can I watch?
           <img
             alt="Open"
-            src="/images/icons/add.png"
+            src={process.env.PUBLIC_URL + "/images/icons/add.png"}
           />
         </div>
       </div>
@@ -63,7 +63,7 @@ exports[`<Accordion /> opens and closes the <Accordion /> component 1`] = `
           How do I cancel?
           <img
             alt="Open"
-            src="/images/icons/add.png"
+            src={process.env.PUBLIC_URL + "/images/icons/add.png"}
           />
         </div>
       </div>
@@ -76,7 +76,7 @@ exports[`<Accordion /> opens and closes the <Accordion /> component 1`] = `
           What can I watch on Netflix?
           <img
             alt="Open"
-            src="/images/icons/add.png"
+            src={process.env.PUBLIC_URL + "/images/icons/add.png"}
           />
         </div>
       </div>
@@ -109,7 +109,7 @@ exports[`<Accordion /> renders the <Accordion /> with populated data 1`] = `
           What is Netflix?
           <img
             alt="Open"
-            src="/images/icons/add.png"
+            src={process.env.PUBLIC_URL + "/images/icons/add.png"}
           />
         </div>
       </div>
@@ -122,7 +122,7 @@ exports[`<Accordion /> renders the <Accordion /> with populated data 1`] = `
           How much does Netflix cost?
           <img
             alt="Open"
-            src="/images/icons/add.png"
+            src={process.env.PUBLIC_URL + "/images/icons/add.png"}
           />
         </div>
       </div>
@@ -135,7 +135,7 @@ exports[`<Accordion /> renders the <Accordion /> with populated data 1`] = `
           Where can I watch?
           <img
             alt="Open"
-            src="/images/icons/add.png"
+            src={process.env.PUBLIC_URL + "/images/icons/add.png"}
           />
         </div>
       </div>
@@ -148,7 +148,7 @@ exports[`<Accordion /> renders the <Accordion /> with populated data 1`] = `
           How do I cancel?
           <img
             alt="Open"
-            src="/images/icons/add.png"
+            src={process.env.PUBLIC_URL + "/images/icons/add.png"}
           />
         </div>
       </div>
@@ -161,7 +161,7 @@ exports[`<Accordion /> renders the <Accordion /> with populated data 1`] = `
           What can I watch on Netflix?
           <img
             alt="Open"
-            src="/images/icons/add.png"
+            src={process.env.PUBLIC_URL + "/images/icons/add.png"}
           />
         </div>
       </div>

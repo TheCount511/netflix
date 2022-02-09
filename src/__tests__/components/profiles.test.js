@@ -9,7 +9,7 @@ describe('<Profiles />', () => {
         <Profiles.Title>Who's watching?</Profiles.Title>
         <Profiles.List>
           <Profiles.User onClick={() => {}}>
-            <Profiles.Picture src="/images/karl.png" data-testid="profile-picture" />
+            <Profiles.Picture src={process.env.PUBLIC_URL + "/images/karl.png"} data-testid="profile-picture" />
             <Profiles.Name>Karl</Profiles.Name>
           </Profiles.User>
         </Profiles.List>

@@ -21,7 +21,7 @@ exports[`<Card /> renders the <Card /> with and clicks the card feature 1`] = `
       >
         <img
           class="card__Image-s87lnr-7 jddFU"
-          src="/images/series/documentaries/tiger-king/small.jpg"
+          src={process.env.PUBLIC_URL + "/images/series/documentaries/tiger-king/small.jpg"
         />
         <div
           class="card__Meta-s87lnr-6 kVbVwI"
@@ -57,7 +57,7 @@ exports[`<Card /> renders the <Card /> with and clicks the card feature 1`] = `
       >
         <img
           class="card__Image-s87lnr-7 jddFU"
-          src="/images/series/feel-good/juno/small.jpg"
+          src={process.env.PUBLIC_URL + "/images/series/feel-good/juno/small.jpg"
         />
         <div
           class="card__Meta-s87lnr-6 kVbVwI"
@@ -99,7 +99,7 @@ exports[`<Card /> renders the <Card /> with populated data 1`] = `
       >
         <img
           class="card__Image-s87lnr-7 jddFU"
-          src="/images/series/documentaries/tiger-king/small.jpg"
+          src={process.env.PUBLIC_URL + "/images/series/documentaries/tiger-king/small.jpg"
         />
         <div
           class="card__Meta-s87lnr-6 kVbVwI"
@@ -134,7 +134,7 @@ exports[`<Card /> renders the <Card /> with populated data 1`] = `
       >
         <img
           class="card__Image-s87lnr-7 jddFU"
-          src="/images/series/feel-good/juno/small.jpg"
+          src={process.env.PUBLIC_URL + "/images/series/feel-good/juno/small.jpg"
         />
         <div
           class="card__Meta-s87lnr-6 kVbVwI"

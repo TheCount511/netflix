@@ -8,7 +8,7 @@ exports[`<Loading /> renders the <Loading /> 1`] = `
   <img
     class="sc-gtssRu dbobBa"
     data-testid="loading-picture"
-    src="/images/users//images/karl.png.png"
+    src={process.env.PUBLIC_URL + "/images/users//images/karl.png.png"}
   />
 </div>
 `;

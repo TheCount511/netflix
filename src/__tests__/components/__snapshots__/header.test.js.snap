@@ -64,7 +64,7 @@ exports[`<Header /> renders the full <Header> with a background 1`] = `
         >
           <img
             alt="Search"
-            src="/images/icons/search.png"
+            src={process.env.PUBLIC_URL + "/images/icons/search.png"}
           />
         </button>
         <input
@@ -79,7 +79,7 @@ exports[`<Header /> renders the full <Header> with a background 1`] = `
       >
         <button
           class="header__Picture-djltcn-8 isIzhY"
-          src="/images/users//images/karl.png.png"
+          src={process.env.PUBLIC_URL + "/images/users//images/karl.png.png"}
         />
         <div
           class="header__Dropdown-djltcn-9 fxiggt"
@@ -89,7 +89,7 @@ exports[`<Header /> renders the full <Header> with a background 1`] = `
           >
             <button
               class="header__Picture-djltcn-8 isIzhY"
-              src="/images/users//images/karl.png.png"
+              src={process.env.PUBLIC_URL + "/images/users//images/karl.png.png"}
             />
             <p
               class="header__Link-djltcn-2 fplXiN"

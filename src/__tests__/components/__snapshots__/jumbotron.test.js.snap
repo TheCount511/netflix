@@ -32,7 +32,7 @@ exports[`<Jumbotron /> renders the <Jumbotron /> with populated data 1`] = `
           alt="Tiger King on Netflix"
           class="jumbotron__Image-es77m8-4 kzbDMP"
           data-testid="1-jumbo-image"
-          src="/images/misc/home-tv.jpg"
+          src={process.env.PUBLIC_URL + "/images/misc/home-tv.jpg"
         />
       </div>
     </div>
@@ -65,7 +65,7 @@ exports[`<Jumbotron /> renders the <Jumbotron /> with populated data 1`] = `
           alt="Watch on mobile"
           class="jumbotron__Image-es77m8-4 kzbDMP"
           data-testid="2-jumbo-image"
-          src="/images/misc/home-mobile.jpg"
+          src={process.env.PUBLIC_URL + "/images/misc/home-mobile.jpg"
         />
       </div>
     </div>
@@ -98,7 +98,7 @@ exports[`<Jumbotron /> renders the <Jumbotron /> with populated data 1`] = `
           alt="Money Heist on Netflix"
           class="jumbotron__Image-es77m8-4 kzbDMP"
           data-testid="3-jumbo-image"
-          src="/images/misc/home-imac.jpg"
+          src={process.env.PUBLIC_URL + "/images/misc/home-imac.jpg"
         />
       </div>
     </div>

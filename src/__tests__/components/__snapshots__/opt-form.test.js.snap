@@ -15,7 +15,7 @@ exports[`<OptForm /> renders the <OptForm /> with populated data 1`] = `
      
     <img
       alt="Try Now"
-      src="/images/icons/chevron-right.png"
+      src={process.env.PUBLIC_URL + "/images/icons/chevron-right.png"}
     />
   </button>
   <div
