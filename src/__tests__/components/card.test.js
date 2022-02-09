@@ -44,7 +44,7 @@ describe('<Card />', () => {
             <Card.Entities>
               {slideItem.data.map((item) => (
                 <Card.Item key={item.docId} item={item}>
-                  <Card.Image src={`/images/${category}/${item.genre}/${item.slug}/small.jpg`} />
+                  <Card.Image src={process.env.PUBLIC_URL + `/images/${category}/${item.genre}/${item.slug}/small.jpg`} />
                   <Card.Meta>
                     <Card.SubTitle>{item.title}</Card.SubTitle>
                     <Card.Text>{item.description}</Card.Text>
@@ -82,7 +82,7 @@ describe('<Card />', () => {
             <Card.Entities>
               {slideItem.data.map((item) => (
                 <Card.Item key={item.docId} item={item} data-testid={`${item.slug}-item-feature`}>
-                  <Card.Image src={`/images/${category}/${item.genre}/${item.slug}/small.jpg`} />
+                  <Card.Image src={process.env.PUBLIC_URL +  `/images/${category}/${item.genre}/${item.slug}/small.jpg`} />
                   <Card.Meta>
                     <Card.SubTitle>{item.title}</Card.SubTitle>
                     <Card.Text>{item.description}</Card.Text>

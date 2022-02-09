@@ -20,7 +20,7 @@ Header.Profile = ({ children, ...restProps }) => {
 }
 
 Header.Picture = ({ src, ...restProps }) => {
-    return <Picture {...restProps} src={`/images/users/${src}.png`} />
+    return <Picture {...restProps} src={process.env.PUBLIC_URL +  `/images/users/${src}.png`} />
 };
 
 Header.Search = function HeaderSearch({ searchTerm, setSearchTerm, ...restProps }) {
