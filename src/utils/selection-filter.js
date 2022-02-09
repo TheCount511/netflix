@@ -35,7 +35,7 @@ const selectionFilter=({series,films})=>{
         },
         {
             title:'Suspense',
-            data:films.filter((item)=>item.genre==='suspense '),
+            data:films.filter((item)=>item.genre==='suspense'),
         },
         {
             title:'Romance',
