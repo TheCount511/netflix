@@ -15,7 +15,7 @@ OptForm.Button = ({children, ...restProps})=>{
     return(
         <Button {...restProps}>
         {children}
-        <img src={process.env.PUBLIC_URL + "/images/icons/chevron-right.png"} alt ="Try Now"/>   
+        <img src={process.env.PUBLIC_URL + "/images/icons/chevron-right.pn"} alt ="Try Now"/>   
         </Button>
     )
 }
