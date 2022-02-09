@@ -61,7 +61,7 @@ const firebase = {
 describe('<Browse />', () => {
   it('renders the browse page with <SelectProfileContainer />', async () => {
     const { getByTestId, getByPlaceholderText, queryByTestId, debug } = render(
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <FirebaseContext.Provider value={{ firebase }}>
           <Browse />
         </FirebaseContext.Provider>

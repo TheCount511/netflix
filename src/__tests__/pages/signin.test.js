@@ -19,7 +19,7 @@ const firebase = {
 describe('<SignIn />', () => {
   it('renders the sign in page with a form submission', async () => {
     const { getByTestId, getByPlaceholderText, queryByTestId } = render(
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <FirebaseContext.Provider value={{ firebase }}>
           <SignIn />
         </FirebaseContext.Provider>
