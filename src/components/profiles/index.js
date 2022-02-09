@@ -1,4 +1,4 @@
-
+import React from 'react';
 import {Container, Title, List, Item, Picture, Name} from './styles/profiles'
 const Profiles = ({children, ...restProps}) =>{
     return <Container {...restProps}>{children}</Container>

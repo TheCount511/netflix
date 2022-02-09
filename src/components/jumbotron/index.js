@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Image, Inner, Item, Pane, SubTitle, Title } from './styles/jumbotron'
 
 const Jumbotron = ({ children, direction = 'row', ...restProps }) => {

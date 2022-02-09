@@ -1,3 +1,4 @@
+import React from 'react';
 import ReactDOM  from "react-dom";
 import { useState, useContext, createContext } from "react";
 import { Container, Button, Overlay, Inner, Close} from "./styles/player";

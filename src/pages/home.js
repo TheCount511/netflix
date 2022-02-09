@@ -1,3 +1,4 @@
+import React from 'react';
 import HeaderContainer from '../containers/header';
 import JumbotronContainer from '../containers/jumbotron'
 import {FaqsContainer} from '../containers/faqs'

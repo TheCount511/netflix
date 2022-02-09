@@ -1,3 +1,4 @@
+import React from 'react';
 import { useContext, useEffect, useState } from "react";
 import { Card, Header, Loading, Player } from '../components';
 import Fuse from 'fuse.js'

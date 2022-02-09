@@ -1,4 +1,5 @@
 /* eslint-disable react-hooks/rules-of-hooks */
+import React from 'react';
 import { createContext, useContext, useState } from "react";
 import {Container, Inner,Title, Item, Header, Body} from './styles/accordion'
 
